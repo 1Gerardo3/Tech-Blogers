@@ -1,0 +1,89 @@
+:root {
+    --dark: #212733;
+    --lt-blue: #b39ffc;
+    --dk-blue: #331eec;
+    --red: #f02804;
+    --light: #d4ddf0;
+}
+
+body {
+    background: linear-gradient(#373F51, #a9bcd0);
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background: var(--light);
+}
+
+nav a {
+    margin: 5px;
+}
+
+a {
+    color: black;
+}
+
+
+.post-card {
+    width: 50%;
+}
+
+.comment-card {
+    padding-top: 5px;
+}
+
+.comment-card p {
+    margin: 2px;
+}
+
+.comment-form {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.btn:hover {
+    background: var(--blue);
+    border-style: solid;
+    border-width: 2px;
+    border-color: (var--dark);
+}
+
+.dashboard-card {
+    width: 50%;
+    background: var(--light);
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.btn {
+    border-style: solid;
+    border-width: 2px;
+    background: var(--red);
+    color: white;
+    margin: 5px;
+}
+
+.update-card {
+    width: 50%;
+    background: var(--light);
+    color: black;
+}
+
+.new-card {
+    width: 50%;
+    background: var(--light);
+    color: black;
+}
+
+.form-input {
+    margin: 5px;
+}
+
+.login-card {
+    width: 50%;
+    background:#57467B;
+    color: white;
+}
